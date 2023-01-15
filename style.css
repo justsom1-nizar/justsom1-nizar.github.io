@@ -1,0 +1,224 @@
+* { margin: 0; padding: 0; }
+.s1{
+  margin-top: 0px;
+  padding: 0;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin-left: 39%;
+  margin-top: 0%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  margin-top: -5px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  
+  text-align: center;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.s1  nav{
+  color: white;
+  height: 80px;
+  width: 100%;
+
+
+}
+label.logo{
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0px 100px;
+  font-weight: bold;
+   
+}
+
+.s1  nav ul{
+  float: right;
+  margin-right: 5px;
+}
+.s1 nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 25px;
+
+}
+ .s1 nav ul li a{
+  color: grey;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 1px ;
+  font-weight: bold;
+
+}
+a.active,.s1 nav ul li a:hover{
+  background: black;
+  transition: .5s;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .box li a{
+    position: fixed;
+    padding-bottom: 5px;
+  }
+}
+@media (max-width: 858px){
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left:0;
+    text-align: center;
+  }
+  .box li a{
+    position: fixed;
+    padding-bottom: 5px;
+  }
+}
+.s3{
+  background: #787878;
+  background-size: cover;
+}
+.s2{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0;
+    
+
+  }
+  .myproject{
+    font: Helvetica sans-serif ;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 100px;
+  }
+  .s2 div {
+    width: 450px;
+    height :600px;
+    background: ghostwhite;
+    padding: 40px;
+
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 20px;
+    color: darkgrey;
+    border-radius: 50px;
+    box-shadow: 0 0 20px  whitesmoke, 0 0 10px  whitesmoke;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .s2 div h1{
+    color: black;
+    font-size:  "Space Grotesk", sans-serif;
+  }
+  .s2 div p{
+    margin: 10px;
+    padding-top:10px;  
+  }
+  .box-img1{
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+  }
+  .ligne{
+    width: 50px;
+    height: 3px;
+    margin: 20px auto;
+    border: 0px;
+    background: rgb(208, 187, 87);
+  }
+  .s2 ul{
+    float: none;
+    color: yellow;
+    text-align: center;
+
+  }
+  .s2 ul li{
+    display: inline-block;
+    margin: 5px;
+  }
+  .s2 .tc li{
+    display: inline-block;
+    border-color: darkgrey;
+    border-style: solid;
+    background: #A52A2A;
+    border-radius: 5px;
+    line-height: 20px;
+    margin: 0 25px;
+    text-align: center;
+  }
+  .s2 .tc li a{
+    font-size: 10px;
+    color: white;
+   
+
+  }
+  .s2 .sourcecode {
+    color: black;
+    
+
+  }
+  .s3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .s3 img{
+    max-width: 100%;
+  }
+  .s3 div{
+    margin: 25px;
+  }
+.img-col {
+  flex-basis:40% ;
+}
